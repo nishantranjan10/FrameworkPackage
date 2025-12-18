@@ -5,26 +5,23 @@ import PackageDescription
 
 let package = Package(
     name: "FrameworkPackage",
-    platforms: [
-            .iOS(.v15),
-            .macOS(.v12),
-        ],
+    platforms: [.iOS(.v15)],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "FrameworkPackage",
             targets: ["FrameworkPackage"]
         ),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "FrameworkPackage"
+            name: "FrameworkPackage",
+            path: "Sources/FrameworkPackage"
         ),
         .testTarget(
             name: "FrameworkPackageTests",
-            dependencies: ["FrameworkPackage"]
-        ),
+            dependencies: ["FrameworkPackage"],
+            path: "Tests"
+        )
     ]
 )
+

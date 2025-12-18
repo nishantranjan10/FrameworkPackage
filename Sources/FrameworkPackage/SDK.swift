@@ -8,7 +8,8 @@
 import Foundation
 
 public struct SDK {
-   public static func doSomeWork() {
-        print("Doing some work!")
+    public init() {}
+    public static func doSomeWork() {
+        print("Doing some work from FrameworkPackage")
     }
 }
