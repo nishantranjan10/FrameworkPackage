@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct SDK {
-    static func doSomeWork() {
+public struct SDK {
+   public static func doSomeWork() {
         print("Doing some work!")
     }
 }
