@@ -6,8 +6,8 @@ import PackageDescription
 let package = Package(
     name: "FrameworkPackage",
     platforms: [
-        .iOS(.v15)
-    ],
+            .iOS(.v15)
+        ],
     products: [
         .library(
             name: "FrameworkPackage",
@@ -15,14 +15,13 @@ let package = Package(
         ),
     ],
     targets: [
-        .binaryTarget(
-            name: "FrameworkPackage",
-            path: "./Sources/FrameworkPackage.xcframework"),
-        .testTarget(
-            name: "FrameworkPackageTests",
-            dependencies: ["FrameworkPackage"],
-            path: "Tests"
-        )
+        // Targets are the basic building blocks of a package, defining a module or a test suite.
+        // Targets can depend on other targets in this package and products from dependencies.
+        .binaryTarget(name: "FrameworkPackage",
+                      path: "./Sources/FrameworkPackage.xcframework")
+//        .target(
+//            name: "CustomFramework"),
+
     ]
 )
 
