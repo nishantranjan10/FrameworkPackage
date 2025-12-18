@@ -13,9 +13,231 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestSDK",
+        "printedName": "TestSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "doSomeWork2",
+            "printedName": "doSomeWork2()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FrameworkPackage7TestSDKV11doSomeWork2yyFZ",
+            "mangledName": "$s16FrameworkPackage7TestSDKV11doSomeWork2yyFZ",
+            "moduleName": "FrameworkPackage",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16FrameworkPackage7TestSDKV",
+        "mangledName": "$s16FrameworkPackage7TestSDKV",
+        "moduleName": "FrameworkPackage",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrameworkPackage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrameworkPackage"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FrameworkPackage3SDKV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s16FrameworkPackage3SDKV9configure6apiKeyySS_tFZ",
+            "moduleName": "FrameworkPackage",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomeWork",
+            "printedName": "doSomeWork()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FrameworkPackage3SDKV10doSomeWorkyyFZ",
+            "mangledName": "$s16FrameworkPackage3SDKV10doSomeWorkyyFZ",
+            "moduleName": "FrameworkPackage",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16FrameworkPackage3SDKV",
+        "mangledName": "$s16FrameworkPackage3SDKV",
+        "moduleName": "FrameworkPackage",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrameworkPackage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK1",
+        "printedName": "SDK1",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "doSomeWork1",
+            "printedName": "doSomeWork1()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FrameworkPackage4SDK1V11doSomeWork1yyFZ",
+            "mangledName": "$s16FrameworkPackage4SDK1V11doSomeWork1yyFZ",
+            "moduleName": "FrameworkPackage",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16FrameworkPackage4SDK1V",
+        "mangledName": "$s16FrameworkPackage4SDK1V",
+        "moduleName": "FrameworkPackage",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nishant\/Documents\/WorkSpace\/iOS-Framework\/Framework\/FrameworkPackage\/FrameworkPackage\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 83,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nishant\/Documents\/WorkSpace\/iOS-Framework\/Framework\/FrameworkPackage\/FrameworkPackage\/SDK.swift",
+      "kind": "Array",
+      "offset": 127,
+      "length": 31,
+      "value": "[\"privateKey123\"]"
+    }
+  ]
 }
