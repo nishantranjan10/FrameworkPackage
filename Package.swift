@@ -5,7 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "FrameworkPackage",
-    platforms: [.iOS(.v15)],
+    platforms: [
+        .iOS(.v15)
+    ],
     products: [
         .library(
             name: "FrameworkPackage",
@@ -13,10 +15,9 @@ let package = Package(
         ),
     ],
     targets: [
-        .target(
+        .binaryTarget(
             name: "FrameworkPackage",
-            path: "Sources/FrameworkPackage"
-        ),
+            path: "./Sources/FrameworkPackage.xcframework"),
         .testTarget(
             name: "FrameworkPackageTests",
             dependencies: ["FrameworkPackage"],
